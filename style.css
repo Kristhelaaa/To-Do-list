@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(https://images.pexels.com/photos/532566/pexels-photo-532566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Estilos del título */
+  h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    color: #292222;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Estilos del campo de entrada */
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  input[type="text"]::placeholder {
+    font-style: italic;
+    color: #AAAAAA;
+  }
+  
+  /* Estilos del botón de agregar */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #639b65;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+
+  }
+  
+  button:hover {
+    background-color: #c5380e;
+  }
+  
+  /* Estilos del contenedor de los items */
+  .item-container {
+    background-color: #EEEDED;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  
+  .item-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .remove-button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .remove-button:hover {
+    background-color: #FF3333;
+  }
+  
+  /* Estilos del contenedor de la lista */
+  .list-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* Estilos de la lista */
+  ul {
+    list-style-type: none;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  li {
+    font-size: 18px;
+    color: #000000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
